@@ -34,26 +34,37 @@
     <!-- Actual page content! -->
     <div class="container">
         <div class="section flow-text" id="stuffDetail">
-            <h1>Stuff details:</h1>
+            <h1>Item details:</h1>
             <a class="btn-small waves-effect waves-light" href="stuff.html">
-                <i class="material-icons left">arrow_back</i>Return to Inventory
+                <i class="material-icons left">arrow_back</i>Return to Shopping List
             </a>
             <table>
                 <tr>
                     <th>Item:</th>
-                    <td>Widgets</td>
+                    <td>Apples</td>
                 </tr>
                 <tr>
                     <th>Quantity:</th>
                     <td>5</td>
-
+                </tr>
+                <tr>
+                    <th>Price: ($)</th>
+                    <td>3.50</td>
+                </tr>
+                <tr>
+                    <th>Weight: (lbs)</th>
+                    <td>2.00</td>
+                </tr>
+                <tr>
+                    <th>Brand:</th>
+                    <td>Ap Ell's</td>
                 </tr>
                 <tr>
                     <th>Description:</th>
                     <td>
-                        Widgets are cool!
-                        You can do ... so many...
-                        different things... with them...
+                        Apples are sweet!
+                        There are  so many 
+                        different varieties of them... 🍎
                     </td>
                 </tr>
             </table>
@@ -86,11 +97,21 @@
                             <label for="quantityInput">Item Quantity:</label>
                             <input type="number" name="quantity" id="quantityInput" value=1 required>
                         </div>
-                    </div>
-                    <div class="row">
-                        <div class="input-field col s12">
-                            <label for="descriptionInput">Item Description:</label>
-                            <input type="text" name="description" id="descriptionInput" data-length="100">
+                        <div class="input-field col s6">
+                            <label for="quantityInput">Item Price: ($)</label>
+                            <input type="number" name="quantity" id="quantityInput" value=1 required>
+                        </div>
+                        <div class="input-field col s6">
+                            <label for="quantityInput">Item Weight:</label>
+                            <input type="number" name="quantity" id="quantityInput" value=1 required>
+                        </div>
+                        <div class="input-field col s6">
+                            <label for="nameInput">Brand Name:</label>
+                            <input type="text" name="name" id="nameInput" class="validate" data-length="32" required>
+                        </div>
+                        <div class="input-field col s6">
+                            <label for="nameInput">Item Description:</label>
+                            <input type="text" name="name" id="nameInput" class="validate" data-length="32" required>
                         </div>
                     </div>
                     <div class="modal-footer">
